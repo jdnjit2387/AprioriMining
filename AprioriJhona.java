@@ -128,7 +128,7 @@ public class AprioriJhona {
 
 			// Calculating the minimum support for the candidate itemsets of size 2
 			for (int i = 0; i < productsjoined.size(); i++) {
-				fstream = new FileInputStream("5.txt");
+				fstream = new FileInputStream("input.txt");
 				br = new BufferedReader(new InputStreamReader(fstream));
 				float joincount = 0, denomcount = 0;
 				while ((strLine = br.readLine()) != null) {
